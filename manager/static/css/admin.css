@@ -1,0 +1,161 @@
+/*
+HEADER
+*/
+
+#header{
+  font-family: 'Avenir Black', 'Arial Black', sans-serif;
+  height: 70px;
+  background: #27526b;
+  color: #939185 ;
+  padding-left: 3%;
+}
+
+#header a:link, #header a:visited {
+  color: #939185;
+}
+
+#user-tools {
+  float: right;
+  padding: 0;
+  margin: 3px 0 0 20px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #939185 ;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+  text-decoration: none;
+  border-bottom-color: #b0d7ec;
+  color: #d2efff;
+}
+
+/*
+GENERAL
+*/
+
+/* Links */
+
+a:link,
+a:visited {
+  color:#151515;
+}
+
+/*Fil d'Arianne */
+
+div.breadcrumbs{
+  background: #151515 ;
+  color: #efc74c;
+  font-weight: 600;
+}
+
+div.breadcrumbs a {
+  color: white ;
+  font-weight: 400;
+}
+
+/* List des tables*/
+
+.module h2, .module caption, .inline-group h2 {
+  background: #ffd968 ;
+}
+
+a.section:link, a.section:visited {
+  color:   #27526b;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+/*
+INSIDE TABLE
+*/
+
+
+/* Search Bar */
+
+#changelist #toolbar {
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid#eee;
+  background:#b0d7ec;
+  color:  #b0d7ec;
+}
+
+
+/* Colonnes */
+
+thead th {
+  padding: 5px 10px;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #ffd968;
+}
+
+table thead th .text a:focus, table thead th .text a:hover {
+  background:#ffd96890;
+}
+
+thead th.sorted {
+  background:#ffd96890;
+}
+
+
+
+/* Buttons Export ... */
+
+.object-tools a:link, .object-tools a:visited {
+  display: block;
+  float: left;
+  padding: 3px 12px;
+  background:#417690;
+  background-color: #27526b;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+  background-color: #417690;
+}
+
+
+/*
+OBJECT LEVEL
+*/
+
+/* Buttons */
+
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button {
+  background: #ffd96870;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  color:  #27526b;
+  cursor: pointer;
+}
+
+.button:active, input[type="submit"]:active, input[type="button"]:active, .button:focus, input[type="submit"]:focus, input[type="button"]:focus, .button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+  background: #ffd968;
+}
+
+.button.default, input[type="submit"].default, .submit-row input.default {
+  float: right;
+  border: none;
+  font-weight: 600;
+  background: #ffd968;
+  color: #27526b;
+}
+
+.button.default:active, input[type="submit"].default:active, .button.default:focus, input[type="submit"].default:focus, .button.default:hover, input[type="submit"].default:hover {
+  background: #ffd968;
+  border: 1px solid #27526b;
+}

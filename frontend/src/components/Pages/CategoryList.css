@@ -1,0 +1,598 @@
+.top-container{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    align-self:flex-start;
+}
+
+.bottom-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center 
+}
+
+.menu-container{
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10%;
+    border: 10px solid rgba(40, 132, 224, 1);   
+}
+
+.menu-title{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-weight:700;
+    font-size:1.8vw;
+    color:rgba(40, 132, 224, 1)     
+}
+
+.menu-description{
+    height: auto;
+    width: 100.1%;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start; 
+    background-color:rgba(20, 81, 142, 0.7);
+    text-align:justify; 
+    color:white;  
+}
+
+.menu-description h5{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-top:1.25vh;
+    font-weight:600;
+    font-size:0.9vw;
+    align-self:center;
+}
+
+.menu-description h4{
+    margin-left:1vw;
+    margin-right:1vw;
+    font-weight:600;
+    font-size:0.9vw;
+    align-self:center;
+}
+
+.menu-description h1{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-top:1.25vh;
+    margin-bottom:1vh;
+    font-size:0.9vw;
+    font-weight:400;
+}
+
+.menu-description h2{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-top:0.5vh;
+    font-size:0.9vw;
+    font-weight:400;
+}
+
+
+
+.list{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:0.5vh;
+    list-style-type: disc;
+    align-self:center;
+    font-size:0.9vw;
+    font-weight:400;
+    width:90%
+}
+
+.menu-description h3{
+    display:flex;
+    align-self:center;
+    margin:1.25vh;
+    font-weight:600;
+    font-size:1vw;
+}
+
+.select-home{
+    width:auto;
+    display:flex;
+    justify-content: column;
+    align-items: center;
+    border:none;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom:2px solid rgba(40, 132, 224, 1)  ;
+    padding: 1vh;
+    box-sizing: border-box;
+    font-size: 1vw;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+      
+}
+
+.select-home:focus{
+    outline:none   
+}
+
+
+
+.option-home{
+    display: flex;
+    border-color: 2px solid rgba(40, 132, 224, 1);
+    background: rgba(0, 0, 0, 0.3);
+    color:white;
+    transition:all 5s;
+}
+
+.menu-button-hidden{
+    height: 4vw;
+    width: 25vw; 
+    background-color:transparent;
+    border:none;  
+    transition:all 2s   
+}
+
+.menu-button{
+    height: 3vw;
+    width: 12vw;
+    display: flex;
+    text-align:center;
+    color:white;
+    font-size:1.2vw;
+    font-weight:600;
+    padding:0.5vw;
+    background-color:rgba(40, 132, 224, 1);
+    justify-content:center;
+    align-items:center;
+    border:none;
+    border-radius:5%;
+    transition:all 2s
+}
+
+.menu-button:hover{
+    background-color:white;
+    color:rgba(40, 132, 224, 1);
+    border:none; 
+    transition:all 0.5s
+}
+
+.footerC{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    color:#04acfc;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.85));
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.dev-signature{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-weight:600;
+    font-size:1.2vw;
+    height: 5vh;
+    width: auto;
+    align-items: flex-end;
+    margin-right:3vw;
+    
+}
+
+.contact-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-weight:600;
+    font-size:1.2vw;
+    height: 5vh;
+    width: auto;
+    align-items: flex-end;
+    margin-left:1.5vw;
+    
+}
+
+.contact-home{
+    height:2vw;
+    width:13vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+    text-decoration: none;
+    border: 2px solid #04acfc; 
+    transition: all 0.5s;
+    color:#04acfc;
+    
+}
+
+.contact-home:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ;
+    background:transparent; 
+    font-weight: 700;   
+    font-size:1.3vw;
+    border:none;
+}
+
+.contact-home:hover{
+    outline:none
+}
+
+  
+@media screen and (max-width: 1080px)
+{
+    .top-container{
+        height: 15vh;
+        width: 100vw;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center ;
+    }
+    
+    
+    .bottom-container{
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center 
+    }
+    
+    .menu-container{
+        height: 70vh;
+        width: 77vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius:10%;
+        border: 10px solid rgba(40, 132, 224, 1);   
+    }
+    
+    .menu-title{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        font-weight:700;
+        font-size:3vh;
+        color:rgba(40, 132, 224, 1)     
+    }
+    
+    .menu-description{
+        height: auto;
+        width: 100.3%;
+        display: flex;
+        flex-direction:column;
+        align-items:flex-start; 
+        background-color:rgba(20, 81, 142, 0.7);
+        text-align:justify; 
+        color:white;  
+    }
+    
+    .menu-description h5{
+        margin-left:10vw;
+        margin-right:10vw;
+        margin-top:1.25vh;
+        font-weight:600;
+        font-size:1.4vh;
+        align-self:center;
+        text-align:center;
+    }
+    
+    .menu-description h4{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        font-weight:600;
+        font-size:1.4vh;
+        align-self:center;
+    }
+    
+    .menu-description h1{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        margin-top:1vh;
+        margin-bottom:1vh;
+        font-size:1.4vh;
+        font-weight:400;
+    }
+    
+    .menu-description h2{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        margin-top:0.5vh;
+        font-size:1.4vh;
+        font-weight:400;
+    }
+    
+    
+    
+    .list{
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom:0.5vh;
+        list-style-type: disc;
+        align-self:center;
+        font-size:1.2vh;
+        font-weight:400;
+    }
+    
+    .menu-description h3{
+        display:flex;
+        align-self:center;
+        margin:1.25vh;
+        font-weight:600;
+        font-size:1.4vh;
+    }
+    
+    .select-home{
+        width:auto;
+        display:flex;
+        justify-content: column;
+        align-items: center;
+        border:none;
+        background: rgba(0, 0, 0, 0.5);
+        border-bottom:2px solid rgba(40, 132, 224, 1)  ;
+        padding: 1vh;
+        box-sizing: border-box;
+        font-size:1.4vh;
+        font-weight: 600;
+        color:white;
+        text-align: center;
+          
+    }
+    
+    .select-home:focus{
+        outline:none   
+    }
+    
+    
+    
+    .option-home{
+        display: flex;
+        border-color: 2px solid rgba(40, 132, 224, 1);
+        background: rgba(0, 0, 0, 0.3);
+        color:white;
+        transition:all 5s;
+    }
+    
+    .menu-button-hidden{
+        height: 5vh;
+        width: 25vw; 
+        background-color:transparent;
+        border:none;  
+        transition:all 2s   
+    }
+    
+    .menu-button{
+        height: 5vh;
+        width: 16vw;
+        display: flex;
+        text-align:center;
+        color:white;
+        font-size:1.7vh;
+        font-weight:500;
+        padding:0.5vw;
+        background-color:rgba(40, 132, 224, 1);
+        justify-content:center;
+        align-items:center;
+        border:none;
+        border-radius: 6%;
+        transition:all 2s;
+        border-radius:7%
+    }
+    
+    .menu-button:hover{
+        background-color:white;
+        color:rgba(40, 132, 224, 1);
+        border:none; 
+        transition:all 0.5s
+    }
+    
+    .footerC{
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        align-items:flex-end;
+        color:#04acfc;
+        background: linear-gradient(transparent,rgba(0, 0, 0, 0.85));
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .dev-signature{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        font-weight:600;
+        font-size:1.4vh;
+        height: 5vh;
+        width: auto;
+        align-items: center;
+        margin-right:4.5vw;
+        
+    }
+    
+    .contact-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        font-weight:600;
+        font-size:1.4vh;
+        height: 5vh;
+        width: auto;
+        align-self: flex-end;
+        margin-left:1.5vw;
+        
+    }
+    
+    .contact-home{
+        height:3vh;
+        width:18vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center; 
+        text-decoration: none;
+        border: 2px solid #04acfc; 
+        transition: all 1s;
+        color:#04acfc;
+        
+    }
+    
+    .contact-home:hover{
+        text-decoration: none;
+        color: white;
+        transition: all 1s ;
+        background:transparent; 
+        font-weight: 700;   
+        font-size:1.8vh;
+        border:none;
+    }
+    
+    .contact-home:focus{
+        outline:none
+    }    
+}
+
+@media screen and (max-width: 770px)
+{
+    .menu-container{
+        height: 70vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius:10%;
+        border: 10px solid rgba(40, 132, 224, 1);   
+    }
+
+    
+    .menu-description{
+        height: auto;
+        width: 100.3%;
+        display: flex;
+        flex-direction:column;
+        align-items:flex-start; 
+        background-color:rgba(20, 81, 142, 0.7);
+        text-align:justify; 
+        color:white;  
+    }
+    
+    .menu-description h5{
+        margin-left:8vw;
+        margin-right:8vw;
+        margin-top:1.25vh;
+        font-weight:600;
+        font-size:1.2vh;
+        align-self:center;
+        text-align:center;
+    }
+    
+    .menu-description h4{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        font-weight:600;
+        font-size:1.2vh;
+        align-self:center;
+    }
+    
+    .menu-description h1{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        margin-top:1vh;
+        margin-bottom:1vh;
+        font-size:1.2vh;
+        font-weight:400;
+    }
+    
+    .menu-description h2{
+        margin-left:1.5vw;
+        margin-right:1.5vw;
+        margin-top:0.5vh;
+        font-size:1.2vh;
+        font-weight:400;
+    }
+    
+    
+    
+    .list{
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom:0.5vh;
+        list-style-type: disc;
+        align-self:center;
+        font-size:1.2vh;
+        font-weight:400;
+    }
+    
+    .menu-description h3{
+        display:flex;
+        align-self:center;
+        margin:1.25vh;
+        font-weight:600;
+        font-size:1.2vh;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        font-weight:600;
+        font-size:1.4vh;
+        height: 5vh;
+        width: auto;
+        align-self: flex-end;
+        margin-left:1.5vw;
+        
+    }
+    
+    .contact-home{
+        height:3vh;
+        width:18vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center; 
+        text-decoration: none;
+        border: 2px solid #04acfc; 
+        transition: all 1s;
+        color:#04acfc;
+        
+    }
+
+    .contact-home:hover{
+        text-decoration: none;
+        color: white;
+        transition: all 1s ;
+        background:transparent; 
+        font-weight: 700;   
+        font-size:1.5vh;
+        border:none;
+    }
+    
+}
+
